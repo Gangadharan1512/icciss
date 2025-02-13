@@ -1,0 +1,114 @@
+.dates{
+    margin-top: 100px; 
+    background-color: rgb(191,184,156, 0.5);
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.dates h1{
+    font-size: 50px;
+}
+
+
+
+
+.ctdn{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    width: 40%;
+}
+
+.box{
+    width: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    background-color: #1e4175;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.value{
+    font-size: 90px;
+}
+
+.label{
+
+    font-size: 20px;
+}
+
+.a1{
+    background-image: linear-gradient(to bottom right, #f94144, #f8961e);
+}
+
+.a2{
+    background-image: linear-gradient(to right, #f8961e, #f9c74f);
+}
+
+.a3{
+    background-image: linear-gradient(to right, #f9c74f, #43aa8b);
+}
+
+.a4{
+    background-image: linear-gradient(to right, #43aa8b, #577590);
+}
+
+
+
+.impdt{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+}
+
+.dt{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+.w{
+    background-color: white;
+}
+
+
+.b{
+    width: 150px;
+    height: 150px;
+    background-image:linear-gradient(#fecc00, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e4175;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.b p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.dt h4{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.b h3{
+    font-size: 70px;
+}

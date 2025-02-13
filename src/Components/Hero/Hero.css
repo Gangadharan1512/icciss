@@ -1,0 +1,72 @@
+.hero
+{
+    width: 100%;
+    min-height: 150vh;
+    background: linear-gradient(rgba(162, 162, 168, 0.7),rgba(162, 162, 168, 0.7)), url(../../assets/sonamain.jpg);
+    background-size: cover;
+    background-position: position;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content{
+    text-align: center;
+    max-width: 100%;
+    margin-top: 140px;
+}
+
+.top{
+    width: 100%;
+}
+
+.top h1{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.top h3{
+    font-size: 30px;
+}
+
+.top h2{
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.mid h3{
+    font-size: 40px;
+} 
+
+.mid h4{
+    font-size: 30px;
+} 
+
+.mid ol{
+    font-size: 30px;
+}
+
+
+.bottom h3{
+    font-size: 30px;
+}
+
+.bottom h1{
+    font-size: 40px;
+}
+
+.bottom h4{
+    font-size: 20px;
+}
+

@@ -1,0 +1,85 @@
+.committee{
+    margin-top: 100px; 
+    background-color: rgb(191,184,156, 0.5);
+    padding-bottom: 30px;
+}
+
+.committee h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.patrons
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 80px;
+    justify-content: center;
+}
+
+.patrons h1{
+    margin-top: 20px;
+}
+
+.pat{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.w{
+    background-color: white;
+}
+
+
+.h{
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: #1e4175;
+}
+
+
+.adv-com{
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.adv{
+    padding: 10px 20px;
+    width: 33%;
+}
+
+.adv h4{
+    font-size: 20px;
+}
+
+.adv p{
+    font-size: 17px;
+}
+
+.ind{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ind-sub{
+    width: 50%;
+}
+
+.ind h4{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.ind p{
+    font-size: 17px;
+}
+

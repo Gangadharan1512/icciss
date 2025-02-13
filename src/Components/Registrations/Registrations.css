@@ -1,0 +1,71 @@
+.reg{
+    margin-top: 100px;
+    background-color: rgba(191,184,156, 0.5);
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.r{
+    background-color: rgba(191,184,156, 0.5);
+    padding: 30px 60px;
+}
+
+.r p{
+    font-size: 20px;
+}
+
+
+.reg h4{
+    padding: 5px;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+.reg p{
+    padding: 5px;
+    font-size: 28px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+
+table{
+    padding-left: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.amt{
+    width: 33%;
+}
+
+.mod{
+    width: 66%;
+}
+
+.head{
+    text-align: center;
+}
+
+.cont{
+    width: 50%;
+}
+
+.cont p{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 0;
+    padding: 10px 10px;
+}
+.cont table{
+    padding-left: 0;
+    padding: 10px 10px;
+}
+
+.w{
+    background-color: white;
+}
