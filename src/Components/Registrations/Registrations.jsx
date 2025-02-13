@@ -5,73 +5,119 @@ import "./Registrations.css";
 const Registrations = () => {
   return (
     <div>
-    <div className="reg">
-      <div className="amt">
-        <h4>REGISTRATION DETAILS</h4>
-        <table>
-          <tr>
-            <td>Industry</td>
-            <td>: 2000</td>
-          </tr>
-          <tr>
-            <td>Faculty/Academia</td>
-            <td>: 1250</td>
-          </tr>
-          <tr>
-            <td>Scholar/Student(UG/PG)</td>
-            <td>: 1000</td>
-          </tr>
-          <tr>
-            <td>Workshop(on spot)</td>
-            <td>: 500</td>
-          </tr>
-        </table>
-        <p>*Inclusive of (GST)</p>
-      </div>
-
-      <div className="mod">
-        <div className="head">
-          <h4>MODE OF PAYMENT</h4>
-        </div>
-        <div className="cont w">
-          <p>
-            The Fee is to paid through NEFT/RTGS to the following savings
-            account
-          </p>
+      <div className="reg">
+        <div className="amt">
+          <h4>REGISTRATION DETAILS</h4>
           <table>
             <tr>
-              <td>Acct Number</td>
-              <td> : 500101012509147</td>
+              <td>Industry</td>
+              <td>: Rs. 2000*</td>
             </tr>
             <tr>
-              <td>Bank</td>
-              <td> : City Union Bank</td>
+              <td>Faculty/Academia</td>
+              <td>: Rs. 1250*</td>
             </tr>
             <tr>
-              <td>Branch</td>
-              <td> : Salem Main</td>
+              <td>Scholar/Student(UG/PG)</td>
+              <td>: Rs. 1000*</td>
             </tr>
             <tr>
-              <td>IFSC Code</td>
-              <td> : CIUB0000042</td>
-            </tr>
-            <tr>
-              <td>MICR Code</td>
-              <td> : 636054002</td>
+              <td>Workshop(on spot)</td>
+              <td>: Rs. 500*</td>
             </tr>
           </table>
+          <p>*Inclusive of (GST)</p>
+        </div>
+
+        <div className="mod">
+          <div className="head">
+            <h4>MODE OF PAYMENT</h4>
+          </div>
+          <div className="cont w">
+            <p>
+              The Fee is to paid through NEFT/RTGS to the following savings
+              account
+            </p>
+            <table>
+              <tr>
+                <td>Acct Number</td>
+                <td> : 500101012509147</td>
+              </tr>
+              <tr>
+                <td>Bank</td>
+                <td> : City Union Bank</td>
+              </tr>
+              <tr>
+                <td>Branch</td>
+                <td> : Salem Main</td>
+              </tr>
+              <tr>
+                <td>IFSC Code</td>
+                <td> : CIUB0000042</td>
+              </tr>
+              <tr>
+                <td>MICR Code</td>
+                <td> : 636054002</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
-    <div className="r"><ul><li><p>
-        Please mention the Paper-id and name during the payment. The
-        registration fee includes CD-ROM proceedings of accepted papers,
-        conference kit, participation certificate, lunch, and refreshment.
-        Prospective participants desirous of attending the conference are
-        requested to fill the registration form through this link
-        http://surl.li/ljtgaw and mail the same along with registration fee.
-      </p>
-        </li></ul></div>
+      <div className="r">
+        <ul>
+          <li>
+            <p>
+              Kindly ensure that your paper is formatted as per IEEE Template
+              (not exceeding 5 pages).
+            </p>
+          </li>
+          <li>
+            <p>
+              All submissions will be double-blind peer-reviewed by experts
+              based on its research significance, novelty and clarity.
+            </p>
+          </li>
+          <li>
+            <p>
+              At least one author should register and present their paper in
+              conference.
+            </p>
+          </li>
+          <li>
+            <p>
+              The registration fee includes conference kit, participation
+              e-certificate and lunch, and refreshment for offline participants.
+            </p>
+          </li>
+          <li>
+            <p>
+              For online participants e-certificates will be mailed to their
+              registered mail-id.
+            </p>
+          </li>
+          <li>
+            <p>
+              Participants are requested to fill the registration form through
+              this link{" "}
+              <a href="http://surl.li/ljtgaw">http://surl.li/ljtgaw</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div className="pp">
+      <h4>PLAGIARISM POLICY</h4>
+      <div className="r2 w">
+        <ul>
+          <li><p>The paper prior to submission should be checked for plagiarism from
+          licensed plagiarism software.</p></li>
+          <li><p>The plagiarism content should notexceed 10%. </p></li>
+          <li><p>Any kind of self-plagiarism or plagiarism from thework(s) of others should be avoided in an article. If you use a
+          model/concept/figure/table/data/conclusive comment from a previously
+          published work in your paper, you must properly cite the source work.</p></li> 
+          <li><p>If you are using any copyrighted material, a prior permission should
+          be taken from the copyright holder.</p></li>
+        </ul>
+      </div></div>
     </div>
   );
 };

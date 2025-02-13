@@ -38,3 +38,57 @@ nav ul li:hover{
     color: #fecc00;
 }
 
+.menuicon{
+    display: none;
+}
+
+
+
+/* media query */
+@media (max-width: 1000px)
+{
+    .logo{
+        width: 120px;
+        height: 50px;
+    }
+
+    nav ul li {
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 840px)
+{
+    nav  {
+        padding: 15px 0;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1e4175;
+        z-index: -1;
+        width: 200px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menuicon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu{
+        right: -200px;
+    }
+}
+
+

@@ -29,7 +29,7 @@ const Dates = () => {
 
   return (
     <div className="dates">
-      <h1>CONFERENCE DATE</h1>
+      <h1>IMPORTANT DATE</h1>
       <div className="topd">
         <div className="confd">
           <div className="condt">
