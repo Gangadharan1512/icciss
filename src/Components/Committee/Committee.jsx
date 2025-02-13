@@ -30,6 +30,72 @@ const Committee = () => {
         </div>
       </div>
 
+      <div className="coord">
+        <h1 className="h">COORDINATORS</h1>
+        <div className="ord adv-com">
+          <div className="subord adv w">
+            <h4>Dr.A.C.Kaladevi</h4>
+            <p>Professor/CSE</p>
+          </div>
+          <div className="subord adv">
+            <h4>Dr.J.Jayanthi</h4>
+            <p>Professor/CSE</p>
+          </div>
+          <div className="subord adv w">
+            <h4>Dr.S.Anitha Elavarasi</h4>
+            <p>Associate Professor/CSE</p>
+          </div>
+        </div>
+      </div>
+
+      <h1 className="h">ORGANIZING COMMITTEE</h1>
+      <div className="org-com adv-com">
+        <div className="org adv ">
+          <h4>Dr.D.Balamurugan </h4>
+          <h4>Dr.R.Sivakami </h4>
+          <h4>Dr.D.Vidyabarathi </h4>
+          <h4>Dr. V.Nandini</h4>
+          <h4>Dr.A.Prithiviraj </h4>
+          <h4>Dr.T.Sathiya </h4>
+          <h4>Dr.K.C.Rajeswari </h4>
+          <h4> Dr.J.Dhayanithi</h4>
+          <h4>Dr.R.Reenadevi </h4>
+          <h4> Dr.G.Kirubasri </h4>
+          <h4> Mr.N.Basker </h4>
+          <h4>Ms.S.Theetchenya</h4>
+          <h4> Dr.P.Ramya</h4>
+        </div>
+        <div className="org adv w">
+          <h4>Dr. G. Vidhya</h4>
+          <h4>Dr.T.K.Revathi</h4>
+          <h4>Ms.S.Lavanya</h4>
+          <h4>Ms.P.Ramya Paneerselvam </h4>
+          <h4>Mr.M.Balamurugan</h4>
+          <h4>Dr.R.Priyadharshini </h4>
+          <h4> Ms.B.Shibi </h4>
+          <h4>Ms.S.K.Fathima </h4>
+          <h4> Ms.K.S.Jayarekha</h4>
+          <h4> Ms.P.Bhuvaneswari </h4>
+          <h4>Ms.K.Kowsalyadevi </h4>
+          <h4>Ms.G.Sudha </h4>
+          <h4>Ms.V.Vinodhini</h4>
+        </div>
+        <div className="org adv ">
+          <h4>Mr.Y Naveen Raj </h4>
+          <h4>Ms.S.Brindasri </h4>
+          <h4>Ms.S.Asha Ivam </h4>
+          <h4>Ms.S.Pournima</h4>
+          <h4>Ms.S.L.Swarna </h4>
+          <h4> Ms.K.Vaishnavi </h4>
+          <h4>Ms.S.Padmavathy </h4>
+          <h4>Mr.M.Mohammed Ibrahim</h4>
+          <h4>Ms.V.Lathika </h4>
+          <h4>Ms.R.Sowndharya </h4>
+          <h4>Dr.B.Sindhu Saranya </h4>
+          <h4>Ms.K.Pavithra</h4>
+        </div>
+      </div>
+
       <h1 className="h">ADVISORY COMMITTEE</h1>
       <div className="adv-com">
         <div className="adv w">
@@ -56,7 +122,7 @@ const Committee = () => {
           <p>Professor, National Yunlin University of Science and Technology</p>
           <h4> Talwan Dr. R. Nadarajan</h4> <p>Chairman, ACM, Coimbatore</p>
         </div>
-        <div className="adv">
+        <div className="adv ">
           <h4>Dr. Udayakumar Rajendran</h4>
           <p> Director, Checktronic India Pvt. Ltd. Dharmapuri </p>
           <h4>Dr. B. Sivaselvan</h4> <p>Professor & HOD, ITDM, Kancheepuram</p>
@@ -107,55 +173,6 @@ const Committee = () => {
           <p> Assistant Professor, NIT-Pondicherry</p>
           <h4>Dr.S.Lovelyn Rose </h4>
           <p>Associate Professor, PSG College of Technology, Coimbatore</p>
-        </div>
-      </div>
-
-
-      <h1 className="h">ORGANIZING COMMITTEE</h1>
-      <div className="org-com adv-com">
-        <div className="org adv">
-          <h4>Dr.D.Balamurugan </h4>
-          <h4>Dr.R.Sivakami </h4>
-          <h4>Dr.D.Vidyabarathi </h4>
-          <h4>Dr. V.Nandini</h4>
-          <h4>Dr.A.Prithiviraj </h4>
-          <h4>Dr.T.Sathiya </h4>
-          <h4>Dr.K.C.Rajeswari </h4>
-          <h4> Dr.J.Dhayanithi</h4>
-          <h4>Dr.R.Reenadevi </h4>
-          <h4> Dr.G.Kirubasri </h4>
-          <h4> Mr.N.Basker </h4>
-          <h4>Ms.S.Theetchenya</h4>
-          <h4> Dr.P.Ramya</h4>
-        </div>
-        <div className="org adv w">
-          <h4>Dr. G. Vidhya</h4>
-          <h4>Dr.T.K.Revathi</h4>
-          <h4>Ms.S.Lavanya</h4>
-          <h4>Ms.P.Ramya Paneerselvam </h4>
-          <h4>Mr.M.Balamurugan</h4>
-          <h4>Dr.R.Priyadharshini </h4>
-          <h4> Ms.B.Shibi </h4>
-          <h4>Ms.S.K.Fathima </h4>
-          <h4> Ms.K.S.Jayarekha</h4>
-          <h4> Ms.P.Bhuvaneswari </h4>
-          <h4>Ms.K.Kowsalyadevi </h4>
-          <h4>Ms.G.Sudha </h4>
-          <h4>Ms.V.Vinodhini</h4>
-        </div>
-        <div className="org adv">
-          <h4>Mr.Y Naveen Raj </h4>
-          <h4>Ms.S.Brindasri </h4>
-          <h4>Ms.S.Asha Ivam </h4>
-          <h4>Ms.S.Pournima</h4>
-          <h4>Ms.S.L.Swarna </h4>
-          <h4> Ms.K.Vaishnavi </h4>
-          <h4>Ms.S.Padmavathy </h4>
-          <h4>Mr.M.Mohammed Ibrahim</h4>
-          <h4>Ms.V.Lathika </h4>
-          <h4>Ms.R.Sowndharya </h4>
-          <h4>Dr.B.Sindhu Saranya </h4>
-          <h4>Ms.K.Pavithra</h4>
         </div>
       </div>
 

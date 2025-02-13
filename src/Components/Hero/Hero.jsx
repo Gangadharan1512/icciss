@@ -37,6 +37,10 @@ const Hero = () => {
           <h3>Dr. B. Sathiyabhama, Prof & HOD/CSE, SCT</h3>
           <h4>Co-Convenor</h4>
           <h3>Dr. S. Sakthivel, Prof & Deputy HOD/CSE, SCT</h3>
+          <h4>Coordinators</h4>
+          <h3>Dr.A.C.Kaladevi | Dr.J.Jayanthi | Dr.S.Anitha Elavarasi</h3>
+          <div className="m"><p>Professor/CSE  </p><p>Professor/CSE </p><p> Associate Professor/CSE</p></div>
+
         </div>
       </div>
     </div>

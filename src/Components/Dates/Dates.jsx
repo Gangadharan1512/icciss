@@ -30,33 +30,53 @@ const Dates = () => {
   return (
     <div className="dates">
       <h1>CONFERENCE DATE</h1>
-      <div className="ctdn">
-        <div className="box a1">
-          <div className="value">
-            <span>{timeLeft.days}</span>
+      <div className="topd">
+        <div className="confd">
+          <div className="condt">
+            <div className="conb">
+              <p>
+                <h3>3</h3> Apr'25
+              </p>
+            </div>
+            <h4>Pre Conference Workshops</h4>
           </div>
-          <span className="label">{"DAYS"}</span>
+          <div className="condt">
+            <div className="conb">
+              <p>
+                <h3>4</h3> Apr'25
+              </p>
+            </div>
+            <h4>International Conference</h4>
+          </div>
         </div>
-
-        <div className="box a2">
-          <div className="value">
-            <span>{timeLeft.hours}</span>
+        <div className="ctdn">
+          <div className="box wh">
+            <div className="value">
+              <span>{timeLeft.days}</span>
+            </div>
+            <span className="label">{"DAYS"}</span>
           </div>
-          <span className="label">{"HOURS"}</span>
-        </div>
 
-        <div className="box a3">
-          <div className="value">
-            <span>{timeLeft.minutes}</span>
+          <div className="box bl">
+            <div className="value">
+              <span>{timeLeft.hours}</span>
+            </div>
+            <span className="label">{"HOURS"}</span>
           </div>
-          <span className="label">{"MINUTES"}</span>
-        </div>
 
-        <div className="box a4">
-          <div className="value">
-            <span>{timeLeft.seconds}</span>
+          <div className="box wh">
+            <div className="value">
+              <span>{timeLeft.minutes}</span>
+            </div>
+            <span className="label">{"MINUTES"}</span>
           </div>
-          <span className="label">{"SECONDS"}</span>
+
+          <div className="box bl">
+            <div className="value">
+              <span>{timeLeft.seconds}</span>
+            </div>
+            <span className="label">{"SECONDS"}</span>
+          </div>
         </div>
       </div>
 
@@ -70,7 +90,7 @@ const Dates = () => {
           <h4>Submission Deadline</h4>
         </div>
         <div className="dt w">
-          <div className="b">
+          <div className="b2">
             <p>
               <h3>10</h3>Mar'25
             </p>

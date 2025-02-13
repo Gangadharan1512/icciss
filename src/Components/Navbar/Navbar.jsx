@@ -17,14 +17,14 @@ const Navbar = () => {
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
       <img src={logo} alt="" className="logo" />
       <ul>
-        <li><Link to="hero" smooth={true} offset={-100} duration={500}>Home</Link></li>
-        <li><Link to="about" smooth={true} offset={-100} duration={500}>About</Link></li>
-        <li><Link to="dates" smooth={true} offset={-100} duration={500}>Conference</Link></li>
-        <li><Link to="cfp" smooth={true} offset={-100} duration={500}>Call For Papers</Link></li>
-        <li><Link to="pub" smooth={true} offset={-100} duration={500}>Publications</Link></li>
-        <li><Link to="reg" smooth={true} offset={-100} duration={500}>Registrations</Link></li>
-        <li><Link to="committee" smooth={true} offset={-100} duration={500}>Committee</Link></li>
-        <li><Link to="contact" smooth={true} offset={-100} duration={500}>Contact Us</Link></li>
+        <li><Link to="hero" smooth={true} offset={-100} duration={700}>Home</Link></li>
+        <li><Link to="about" smooth={true} offset={-100} duration={700}>About</Link></li>
+        <li><Link to="dates" smooth={true} offset={-100} duration={700}>Conference</Link></li>
+        <li><Link to="cfp" smooth={true} offset={-100} duration={700}>Call For Papers</Link></li>
+        <li><Link to="pub" smooth={true} offset={-100} duration={700}>Publications</Link></li>
+        <li><Link to="reg" smooth={true} offset={-100} duration={700}>Registrations</Link></li>
+        <li><Link to="committee" smooth={true} offset={-100} duration={700}>Committee</Link></li>
+        <li><Link to="contact" smooth={true} offset={-100} duration={700}>Contact Us</Link></li>
       </ul>
     </nav>
   );
