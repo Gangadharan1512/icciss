@@ -27,3 +27,39 @@
 .cfp-sub li{
     font-size: 25px;
 }
+
+/* media query */
+
+@media(max-width:450px)
+{
+    .cfp{
+        margin-top: 50px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .cfp h2{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .cfp h4{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .sub{
+        display:block;
+        gap: 0px;
+        padding: 30px 0;
+    }
+
+    .cfp-sub{
+        padding: 0px 0px;    
+        padding-left: 40px;
+    }
+
+    .cfp-sub li{
+        font-size: 18px;
+    }
+}

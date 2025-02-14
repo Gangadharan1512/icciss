@@ -45,6 +45,13 @@
     padding: 50px;
 }
 
+.bullet
+{
+    text-align: start;
+    padding-left: 100px;
+}
+
+
 .mid h3{
     font-size: 40px;
 } 
@@ -70,12 +77,156 @@
     font-size: 20px;
 }
 
+
+
 .m{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
     font-size: 20px;
     font-weight: 800;
+    padding-left: 60px;
 }
 
+
+/* media query */
+
+@media (max-width: 840px) {
+    .hero {
+        min-height: 120vh; /* Reduce height for smaller screens */
+        background-size: cover;
+        background-position: center; /* Ensure proper alignment */
+        padding: 20px; /* Add some padding for spacing */
+        flex-direction: column;
+    }
+
+    .content {
+        text-align: center;
+        max-width: 90%; /* Adjust width to fit smaller screens */
+        margin-top: 100px; /* Reduce top margin */
+    }
+
+    .top h1 {
+        font-size: 50px; /* Reduce font size */
+        padding-bottom: 20px;
+    }
+
+    .top h3 {
+        font-size: 25px; /* Reduce font size */
+    }
+
+    .top h2 {
+        font-size: 35px; /* Adjust for better fit */
+        padding-top: 20px;
+    }
+
+    .mid {
+        flex-direction: column; /* Stack items vertically */
+        gap: 40px; /* Reduce spacing */
+        padding: 30px;
+    }
+
+    .mid h3 {
+        font-size: 30px; /* Adjust size for readability */
+    }
+
+    .mid h4,
+    .mid ol {
+        font-size: 25px;
+    }
+
+    .bottom h3 {
+        font-size: 25px;
+    }
+
+    .bottom h1 {
+        font-size: 35px;
+    }
+
+    .bottom h4 {
+        font-size: 18px;
+    }
+
+    .bullet{
+        padding-left: 250px;
+    }
+
+    .m {
+        gap: 50px; /* Reduce spacing */
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .hero {
+        min-height: 100vh; /* Reduce height further for small screens */
+        padding: 15px; /* Adjust padding */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content {
+        max-width: 100%; /* Use more screen space */
+        margin-top: 80px; /* Reduce top margin */
+    }
+
+    .top h1 {
+        font-size: 40px; /* Further reduce font size */
+        padding-bottom: 15px;
+    }
+
+    .top h3 {
+        font-size: 22px;
+    }
+
+    .top h2 {
+        font-size: 28px;
+        padding-top: 15px;
+    }
+
+    .mid {
+        flex-direction: column; /* Keep items stacked */
+        gap: 30px; /* Reduce spacing */
+        padding: 20px;
+    }
+
+    .mid h3 {
+        font-size: 26px;
+    }
+
+    .mid h4,
+    .mid ol {
+        font-size: 22px;
+    }
+
+    .bottom h3 {
+        font-size: 22px;
+    }
+
+    .bottom h1 {
+        font-size: 30px;
+    }
+
+    .bottom h4 {
+        font-size: 16px;
+    }
+
+    .bullet {
+        padding-left: 120px; /* Adjust padding for proper alignment */
+    }
+
+    .m { /* Reduce spacing further */
+        font-size: 16px;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 10px; /* Stack elements */
+    }
+}

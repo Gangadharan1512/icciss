@@ -59,3 +59,51 @@
     width: 340px;
     height: 240px;
 }
+
+/* media query */
+
+@media (max-width: 450px) {
+    .about {
+        margin-top: 50px;
+        gap: 20px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .about h2 {
+        font-size: 35px; /* Reduce font size for better fit */
+        padding-top: 30px;
+    }
+
+    .abt-con {
+        flex-direction: column; /* Stack content vertically */
+        padding: 10px 20px;
+        gap: 15px;
+    }
+
+    .abt-left {
+        width: 100%;
+    }
+
+    .abt-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .abt-con h1 {
+        font-size: 30px; /* Reduce heading size */
+        padding-top: 5px;
+    }
+
+    .abt-con p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .abt-con img {
+        width: 100%; /* Make image responsive */
+        height: auto;
+        max-width: 280px; /* Prevents it from being too large */
+    }
+}

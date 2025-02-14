@@ -20,10 +20,11 @@ const Hero = () => {
           <div className="left">
             <h3>3rd April 2025</h3>
             <h4>(Pre Conference Workshops)</h4>
+            <div className="bullet">
             <ol>
               <li>UI-UX Design</li>
               <li>Power Bi</li>
-            </ol>
+            </ol></div>
           </div>
           <div className="right">
             <h3>4th April 2025</h3>
@@ -31,15 +32,28 @@ const Hero = () => {
           </div>
         </div>
         <div className="bottom">
-          <h3>Sponsered by</h3>
+          <h3>Sponsored by</h3>
           <h1>ISTE, CSI(Salem Chapter) and IE(I) Salem</h1> 
           <h4>Convenor</h4>
           <h3>Dr. B. Sathiyabhama, Prof & HOD/CSE, SCT</h3>
           <h4>Co-Convenor</h4>
           <h3>Dr. S. Sakthivel, Prof & Deputy HOD/CSE, SCT</h3>
           <h4>Coordinators</h4>
-          <h3>Dr.A.C.Kaladevi | Dr.J.Jayanthi | Dr.S.Anitha Elavarasi</h3>
-          <div className="m"><p>Professor/CSE  </p><p>Professor/CSE </p><p> Associate Professor/CSE</p></div>
+          <div className="m">
+            <div className="m2">
+              <h3>Dr.A.C.Kaladevi</h3>
+              <p>Professor/CSE  </p>
+            </div>
+            <div className="me">
+              <h3> Dr.J.Jayanthi </h3>
+              <p>Professor/CSE </p>
+            </div>
+            <div className="m2">
+              <h3>Dr.S.Anitha Elavarasi</h3>
+              <p> Associate Professor/CSE</p>
+            </div>
+            
+            </div>
 
         </div>
       </div>

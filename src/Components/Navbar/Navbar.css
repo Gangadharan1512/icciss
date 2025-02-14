@@ -61,6 +61,7 @@ nav ul li:hover{
 {
     nav  {
         padding: 15px 0;
+        width: 60%;
     }
 
     nav ul{
@@ -90,5 +91,44 @@ nav ul li:hover{
         right: -200px;
     }
 }
+
+@media (max-width: 450px) {
+    nav {
+        position: fixed;
+        width: 450px;
+        padding: 12px 0;/* Slightly reduced padding */
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #1e4175;
+        z-index: 1000; /* Ensure visibility */
+        width: 180px; /* Slightly increased width for better spacing */
+        padding: 10px 0;
+        transform: translateX(0);
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 18px 25px; /* Adjusted margin for better layout */
+        font-size: 20px; /* Increased for readability */
+    }
+
+    .menuicon {
+        display: block;
+        width: 25px; /* Slightly larger for easier interaction */
+        cursor: pointer;
+    }
+
+    /* When menu is open */
+    .hide-mobile-menu {
+        transform: translateX(-100%)
+    }
+}
+
+
 
 

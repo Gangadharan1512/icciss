@@ -31,3 +31,11 @@ a{
     }
     
 }
+
+@media(max-width: 450px)
+{
+    .container{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

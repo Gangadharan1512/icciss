@@ -93,3 +93,41 @@ table{
 .r2 p{
     font-size: 25px;
 }
+
+
+/* media query */
+
+@media(max-width:450px){
+    .reg{
+        margin-top: 50px;
+        background-color: rgba(191,184,156, 0.5);
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .amt{
+        width: 100%;
+    }
+
+    .reg h4{
+        font-size: 35px;
+    }
+
+    table{
+        padding-left: 30px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .reg p{
+        padding: 5px;
+        font-size: 20px;
+        padding-left: 30px;
+        margin-top: 10px;
+    }
+
+
+}
