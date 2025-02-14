@@ -24,6 +24,7 @@
 .top h1{
     font-size: 70px;
     padding-bottom: 30px;
+    color: #03045e;
 }
 
 .top h3{
@@ -31,7 +32,7 @@
 }
 
 .top h2{
-    padding-top: 30px;
+    color: #03045e;
     font-size: 40px;
 }
 
@@ -48,7 +49,7 @@
 .bullet
 {
     text-align: start;
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 
@@ -60,7 +61,7 @@
     font-size: 30px;
 } 
 
-.mid ol{
+.mid p{
     font-size: 30px;
 }
 
@@ -74,7 +75,10 @@
 }
 
 .bottom h4{
-    font-size: 20px;
+    color: #03045e;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 25px;
 }
 
 
@@ -219,14 +223,15 @@
     }
 
     .bullet {
-        padding-left: 120px; /* Adjust padding for proper alignment */
+        text-align: center; 
+        padding-left: 0px;/* Adjust padding for proper alignment */
     }
 
     .m { /* Reduce spacing further */
         font-size: 16px;
         text-align: center;
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 0px;
         gap: 10px; /* Stack elements */
     }
 }

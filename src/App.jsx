@@ -9,6 +9,7 @@ import Publications from './Components/Publications/Publications'
 import Registrations from './Components/Registrations/Registrations'
 import Dates from './Components/Dates/Dates'
 import Contact from './Components/Contact/Contact'
+import Countdown from './Components/CountDown/Countdown'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
+        <Countdown />
         <Dates />
         <About />
         <Cfp />

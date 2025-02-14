@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="top">
           <h1>Department of Computer Science and Engineering</h1>
           <h3>Organizes</h3>
-          <h3>An International Conference</h3>
+          <h2>An International Conference</h2>
           <h3>on</h3>
           <h2>Computational Intelligence, Security and Systems <br />ICCISS'25</h2>
         </div>
@@ -21,10 +21,10 @@ const Hero = () => {
             <h3>3rd April 2025</h3>
             <h4>(Pre Conference Workshops)</h4>
             <div className="bullet">
-            <ol>
-              <li>UI-UX Design</li>
-              <li>Power Bi</li>
-            </ol></div>
+            <p>
+              UI-UX Design,
+              Power BI
+            </p></div>
           </div>
           <div className="right">
             <h3>4th April 2025</h3>

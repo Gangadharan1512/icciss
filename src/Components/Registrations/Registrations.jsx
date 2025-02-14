@@ -112,7 +112,7 @@ const Registrations = () => {
           licensed plagiarism software.</p></li>
           <li><p>The plagiarism content should notexceed 10%. </p></li>
           <li><p>Any kind of self-plagiarism or plagiarism from thework(s) of others should be avoided in an article. If you use a
-          model/concept/figure/table/data/conclusive comment from a previously
+          model/ concept/ figure/ table/ data/ conclusive comment from a previously
           published work in your paper, you must properly cite the source work.</p></li> 
           <li><p>If you are using any copyrighted material, a prior permission should
           be taken from the copyright holder.</p></li>

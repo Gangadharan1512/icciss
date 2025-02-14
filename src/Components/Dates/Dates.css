@@ -1,5 +1,5 @@
 .dates{
-    margin-top: 100px; 
+    margin-top: 50px; 
     background-color: rgb(191,184,156, 0.5);
     padding-bottom: 30px;
     text-align: center;
@@ -11,16 +11,6 @@
     font-size: 50px;
 }
 
-
-
-
-.ctdn{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 40%;
-    margin-bottom: 100px;
-}
 
 .topd
 {
@@ -85,42 +75,6 @@
     border-radius: 10px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
-
-.value{
-    font-size: 60px;
-}
-
-.label{
-
-    font-size: 20px;
-}
-
-.wh{
-    background-image:linear-gradient(#fecc00, yellow);
-    color: #1e4175;
-}
-
-.bl{
-    background-color: #1e4175;
-    color: #fecc00;
-}
-
-/* .a1{
-    background-image: linear-gradient(to bottom right, #f94144, #f8961e);
-}
-
-.a2{
-    background-image: linear-gradient(to right, #f8961e, #f9c74f);
-}
-
-.a3{
-    background-image: linear-gradient(to right, #f9c74f, #43aa8b);
-}
-
-.a4{
-    background-image: linear-gradient(to right, #43aa8b, #577590);
-} */
-
 
 
 .impdt{
@@ -191,6 +145,105 @@
 
 .b2 h3{
     font-size: 70px;
+}
+
+
+/* media query */
+
+@media(max-width:450px)
+{
+    .dates h1{
+        font-size: 35px;
+    }
+    .confd
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+    gap: 40px;
+}
+
+    .condt{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .conb{
+        margin-left: 10px;
+        width: 40%;
+        height: 100px;
+    }
+
+    .conb h3{
+        font-size: 30px;
+    }
+
+    .conb p{
+        font-size: 25px;
+    }
+
+    .condt h4{
+        font-size: 20px;
+    }
+
+    .impdt{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .dt{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 20px;
+    }
+
+    .b{
+        margin-left: 20px;
+        width: 40%;
+        height: 100px;
+    }
+
+    .b h3{
+        font-size: 30px;
+    }
+
+    .b p{
+        font-size: 25px;
+    }
+
+    .b2{
+        margin-left: 20px;
+        width: 40%;
+        height: 100px;
+    }
+
+    .b2 h3{
+        font-size: 30px;
+    }
+
+    .b2 p{
+        font-size: 25px;
+    }
+
+    .dt h4{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
 }
 
 
