@@ -27,6 +27,9 @@ const Committee = () => {
           <h1>Convenor</h1>
           <h4>Dr. B. SATHIYABAMA</h4>
           <p>Prof & Head/CSE, SCT</p>
+          <h1>Co-Convener</h1>
+          <h4>Dr. S. Sakthivel</h4>
+          <p>Prof & Deputy-Head/CSE, SCT</p>
         </div>
       </div>
 

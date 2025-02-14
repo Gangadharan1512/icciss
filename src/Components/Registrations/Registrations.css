@@ -114,6 +114,7 @@ table{
     }
 
     .reg h4{
+        text-align: center;
         font-size: 35px;
     }
 
@@ -127,6 +128,49 @@ table{
         font-size: 20px;
         padding-left: 30px;
         margin-top: 10px;
+    }
+
+
+    .mod{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .cont{
+        width: 100%;
+    }
+
+    .cont p{
+        padding-left: 20px;
+    }
+
+    .cont table{
+        padding-left: 20px;
+    }
+
+    .r{
+        padding: 30px 40px;
+    }
+
+    .r p{
+        font-size: 18px;
+    }
+
+    .pp{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .pp h4{
+        text-align: center;
+    }
+
+    .r2{
+        padding: 30px 40px;
+    }
+
+    .r2 p{
+        font-size: 18px;
     }
 
 

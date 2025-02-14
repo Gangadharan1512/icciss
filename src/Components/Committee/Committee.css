@@ -4,6 +4,7 @@
     padding-bottom: 30px;
 }
 
+
 .committee h2{
     font-size: 50px;
     text-align: center;
@@ -22,6 +23,7 @@
 
 .patrons h1{
     margin-top: 20px;
+    color: #1e4175;
 }
 
 .pat{
@@ -89,3 +91,83 @@
     width: 100%;
 }
 
+
+
+/* media query */
+
+@media (max-width: 450px)
+{
+    .committee{
+        margin-top: 50px;
+    }
+
+    .committee h2{
+        font-size: 35px;
+    }
+
+    .patrons
+    {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    }
+
+    .pat{
+        width: 100%;
+    }
+
+    .pat h1{
+        font-size: 30px;
+    }
+    
+    .pat h4{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .pat p{
+        font-size: 18px;
+    }
+
+    .ord{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3px;
+    }
+
+    .subord{
+        width: 100%;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .h{
+        margin-top: 40px;
+        text-align: center;
+        padding-left: 0px;
+        font-size: 30px;
+    }
+
+    .adv-com{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+        padding: 0px 30px;
+    }
+
+    .adv{
+        width: 100%;
+    }
+
+    .ind{
+
+    }
+
+    .ind-sub{
+        width: 100%;
+    }
+
+}
