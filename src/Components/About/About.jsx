@@ -83,11 +83,11 @@ const About = () => {
 
 
       <div className="abt-con">
-        <div className="left">
+        <div className="abt-right">
           <img src={vei} alt="" />
         </div>
 
-        <div className="right">
+        <div className="abt-left">
         <h1>About VEI Technologies</h1>
         <p>
           VEI Technologies provides a broad range of IT consulting, web

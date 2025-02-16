@@ -18,6 +18,8 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  
+
   // Toggle Mobile Menu
   const toggleMenu = () => {
     setMobileMenu(!mobileMenu);

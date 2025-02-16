@@ -28,6 +28,7 @@ const Cfp = () => {
         </div>
         </div>
         <h4>Papers describing the original research in any of the above topics and related works are welcome.</h4>
+        <h4>Submit your paper to the mailID : icciss-25@sonatech.ac.in</h4>
         
         
     </div>

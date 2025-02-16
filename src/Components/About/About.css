@@ -64,6 +64,38 @@
 
 /* media query */
 
+@media(max-width: 900px){
+    .abt-con {
+        flex-direction: column; /* Stack content vertically */
+        padding: 10px 20px;
+        gap: 15px;
+    }
+
+    .abt-left {
+        width: 100%;
+    }
+
+    .abt-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media(max-width: 700px){
+    .abt-con h1 {
+        font-size: 35px; /* Reduce heading size */
+        padding-top: 5px;
+    }
+
+    .abt-con p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+}
+
+
 @media (max-width: 450px) {
     .about {
         margin-top: 50px;

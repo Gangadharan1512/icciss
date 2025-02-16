@@ -57,6 +57,24 @@
 
 /* media query */
 
+@media(max-width: 900px){
+    .ctdn{
+        width: 50%;
+    }
+    .box{
+        width: 100%;
+    }
+
+    .value{
+        font-size: 40px;
+    }
+
+    .label{
+        font-size: 17px;
+    }
+}
+
+
 @media(max-width: 450px){
 
     .count{

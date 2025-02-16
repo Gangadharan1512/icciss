@@ -103,6 +103,7 @@
         background-position: center; /* Ensure proper alignment */
         padding: 20px; /* Add some padding for spacing */
         flex-direction: column;
+        width: 100%;
     }
 
     .content {

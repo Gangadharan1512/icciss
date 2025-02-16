@@ -26,7 +26,7 @@ a{
 
 /* media query */
 
-@media(max-width: 1000px)
+@media(max-width: 900px)
 {
     .container{
         padding-left: 3%;

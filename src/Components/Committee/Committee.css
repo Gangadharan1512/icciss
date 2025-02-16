@@ -96,7 +96,7 @@
 
 /* media query */
 
-@media (max-width: 450px)
+@media (max-width: 750px)
 {
     .committee{
         margin-top: 50px;
