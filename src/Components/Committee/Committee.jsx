@@ -6,51 +6,7 @@ const Committee = () => {
   return (
     <div className="committee">
       <h2>COMMITTEE MEMBERS</h2>
-      <div className="patrons">
-        <div className="pat">
-          <h1>Patron</h1>
-          <h4>Prof. Dr. S.R.R. SENTHIL KUMAR</h4>
-          <p>Principal, Sona College of Technology</p>
-        </div>
-
-        <div className="pat w">
-          <h1>Cheif Patrons</h1>
-          <h4>Mr. C. VALLIAPPA</h4>
-          <p>Chairman, Valliappa Group of Institution</p>
-          <h4>Mr. CHOCKO VALLIAPPA</h4>
-          <p>Vice Chairman, Valliappa Group of Institution</p>
-          <h4>Mr. THYAGU VALLIAPPA</h4>
-          <p>Vice Chairman, Valliappa Group of Institution</p>
-        </div>
-
-        <div className="pat">
-          <h1>Convenor</h1>
-          <h4>Dr. B. SATHIYABAMA</h4>
-          <p>Prof & Head/CSE, SCT</p>
-          <h1>Co-Convener</h1>
-          <h4>Dr. S. Sakthivel</h4>
-          <p>Prof & Deputy-Head/CSE, SCT</p>
-        </div>
-      </div>
-
-      <div className="coord">
-        <h1 className="h">COORDINATORS</h1>
-        <div className="ord adv-com">
-          <div className="subord adv w">
-            <h4>Dr.A.C.Kaladevi</h4>
-            <p>Professor/CSE</p>
-          </div>
-          <div className="subord adv">
-            <h4>Dr.J.Jayanthi</h4>
-            <p>Professor/CSE</p>
-          </div>
-          <div className="subord adv w">
-            <h4>Dr.S.Anitha Elavarasi</h4>
-            <p>Associate Professor/CSE</p>
-          </div>
-        </div>
-      </div>
-
+      
       <h1 className="h">ORGANIZING COMMITTEE</h1>
       <div className="org-com adv-com">
         <div className="org adv ">
