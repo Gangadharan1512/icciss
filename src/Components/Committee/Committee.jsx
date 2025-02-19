@@ -4,11 +4,11 @@ import "./Committee.css";
 
 const Committee = () => {
   return (
-    <div className="committee">
+    <div className="committee w">
       <h2>COMMITTEE MEMBERS</h2>
       
-      <h1 className="h">ORGANIZING COMMITTEE</h1>
-      <div className="org-com adv-com">
+      <h1 className="h w">ORGANIZING COMMITTEE</h1>
+      <div className="org-com adv-com w">
         <div className="org adv ">
           <h4>Dr.D.Balamurugan </h4>
           <h4>Dr.R.Sivakami </h4>
@@ -55,8 +55,8 @@ const Committee = () => {
         </div>
       </div>
 
-      <h1 className="h w">ADVISORY COMMITTEE</h1>
-      <div className="adv-com w">
+      <h1 className="h ">ADVISORY COMMITTEE</h1>
+      <div className="adv-com ">
         <div className="adv">
           <h4>Dr. K. Chandrasekaran</h4>
           <p> Professor, NITK, Surathkal</p>
@@ -135,8 +135,8 @@ const Committee = () => {
         </div>
       </div>
 
-      <h1 className="h">INDUSTRY COLLABORATION</h1>
-      <div className="ind adv-com">
+      <h1 className="h w">INDUSTRY COLLABORATION</h1>
+      <div className="ind adv-com w">
         <div className="ind-sub">
           <h4>VEE Technologies, Bengaluru</h4>
           <h4>VEI Technologies, Chennai</h4>

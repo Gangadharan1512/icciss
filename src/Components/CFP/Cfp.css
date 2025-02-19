@@ -2,6 +2,8 @@
     margin-top: 40px;
     background-color: rgb(191,184,156, 0.5);
     padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .cfp  h2{
@@ -40,8 +42,12 @@
         padding-top: 30px;
     }
 
+    .sub{
+        gap: 5px;
+    }
+
     .cfp-sub li{
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
@@ -76,6 +82,6 @@
     }
 
     .cfp-sub li{
-        font-size: 18px;
+        font-size: 16px;
     }
 }

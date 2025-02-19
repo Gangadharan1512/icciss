@@ -113,16 +113,16 @@
     }
 
     .top h1 {
-        font-size: 50px; /* Reduce font size */
+        font-size: 30px; /* Reduce font size */
         padding-bottom: 20px;
     }
 
     .top h3 {
-        font-size: 25px; /* Reduce font size */
+        font-size: 15px; /* Reduce font size */
     }
 
     .top h2 {
-        font-size: 35px; /* Adjust for better fit */
+        font-size: 20px; /* Adjust for better fit */
         padding-top: 20px;
     }
 
@@ -133,7 +133,7 @@
     }
 
     .mid h3 {
-        font-size: 30px; /* Adjust size for readability */
+        font-size: 20px; /* Adjust size for readability */
     }
 
     .mid h4,
@@ -146,21 +146,23 @@
     }
 
     .bottom h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .bottom h4 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .bullet{
-        padding-left: 250px;
+        padding-left: 60px;
     }
 
-    .m {
-        gap: 50px; /* Reduce spacing */
-        font-size: 18px;
+    .m { /* Reduce spacing further */
+        font-size: 16px;
         text-align: center;
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 10px; /* Stack elements */
     }
 }
 

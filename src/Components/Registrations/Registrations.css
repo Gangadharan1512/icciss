@@ -1,14 +1,19 @@
 .reg{
     margin-top: 40px;
-    background-color: rgba(191,184,156, 0.5);
     padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.r{
+.main
+{
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgba(191,184,156, 0.5);
+}
+
+.r{
     padding: 0px 60px;
     padding-bottom: 20px;
 }
@@ -104,7 +109,6 @@ table{
 @media(max-width: 1000px){
     .reg{
         margin-top: 50px;
-        background-color: rgba(191,184,156, 0.5);
         padding-bottom: 30px;
         display: flex;
         flex-direction: column;

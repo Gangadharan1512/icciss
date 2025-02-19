@@ -4,7 +4,7 @@ import "./Registrations.css";
 
 const Registrations = () => {
   return (
-    <div>
+    <div className="main">
       <div className="reg">
         <div className="amt">
           <h4>REGISTRATION DETAILS</h4>
