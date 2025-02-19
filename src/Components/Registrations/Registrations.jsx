@@ -33,7 +33,7 @@ const Registrations = () => {
           <div className="head">
             <h4>MODE OF PAYMENT</h4>
           </div>
-          <div className="cont w">
+          <div className="cont">
             <p>
               The Fee is to paid through NEFT/RTGS to the following savings
               account
@@ -99,14 +99,14 @@ const Registrations = () => {
             <p>
               Participants are requested to fill the registration form through
               this link{" "}
-              <a href="http://surl.li/ljtgaw">http://surl.li/ljtgaw</a>
+              <a href="http://surl.li/ljtgaw" target="_blank" rel="noopener noreferrer">http://surl.li/ljtgaw</a>
             </p>
           </li>
         </ul>
       </div>
       <div className="pp">
       <h4>PLAGIARISM POLICY</h4>
-      <div className="r2 w">
+      <div className="r2">
         <ul>
           <li><p>The paper prior to submission should be checked for plagiarism from
           licensed plagiarism software.</p></li>

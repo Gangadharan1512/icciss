@@ -10,27 +10,6 @@ const Dates = () => {
   return (
     <div className="dates">
       <h1>IMPORTANT DATES</h1>
-      <div className="topd">
-        <div className="confd">
-          <div className="condt">
-            <div className="conb">
-              <p>
-                <h3>3</h3> Apr'25
-              </p>
-            </div>
-            <h4>Pre Conference Workshops</h4>
-          </div>
-          <div className="condt">
-            <div className="conb">
-              <p>
-                <h3>4</h3> Apr'25
-              </p>
-            </div>
-            <h4>International Conference</h4>
-          </div>
-        </div>
-              </div>
-
       <div className="impdt">
         <div className="dt">
           <div className="b">
@@ -40,7 +19,7 @@ const Dates = () => {
           </div>
           <h4>Submission Deadline</h4>
         </div>
-        <div className="dt w">
+        <div className="dt">
           <div className="b2">
             <p>
               <h3>10</h3>Mar'25

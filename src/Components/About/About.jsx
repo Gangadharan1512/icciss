@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="about">
       <h2>ABOUT US</h2>
-      <div className="abt-con w">
+      <div className="abt-con">
         <div className="abt-left">
           <h1>About Sona</h1>
           <p>
@@ -39,12 +39,28 @@ const About = () => {
       </div>
       <div className="abt-con">
         <div className="abt-right">
-          <img src={confer} alt="" />
+          <img src={dept} alt="" />
         </div>
         <div className="abt-left">
-          <h1>About the Conference</h1>
-          <p>
-            The main objective of the International Conference on Computational
+          <h1>About the Department</h1>
+          <p>The Department of Computer Science and Engineering was incepted with
+          the vision of creating the most conducive environment for quality
+          academic and research education. The department has achieved many
+          laurels and milestones owing to the unswerving efforts by the faculty
+          team. The department has also produced many high quality publications
+          in Journals with impact factors and quality conferences at national
+          and international level. The department is an approved research centre
+          under Anna University, Chennai. The department has two PG programs and
+          three UG programs.
+            </p>
+        </div>
+      </div>
+
+      <div className="abt-con">
+        <div className="left">
+        <h1>About The Conference</h1>
+        <p>
+          The main objective of the International Conference on Computational
             Intelligence, Security and Systems (ICCISS '25) is a biennial
             conference that brings together the academicians, scientists,
             student innovators and industrial experts of various domains spread
@@ -57,37 +73,13 @@ const About = () => {
             students, engineers and academicians. This conference will set the
             right path for innovators through the valuable guidance and
             suggestions of eminent scholars, scientists and industrial experts.
-          </p>
-        </div>
-      </div>
-
-      <div className="abt-con w">
-        <div className="left">
-        <h1>About The Department</h1>
-        <p>
-          The Department of Computer Science and Engineering was incepted with
-          the vision of creating the most conducive environment for quality
-          academic and research education. The department has achieved many
-          laurels and milestones owing to the unswerving efforts by the faculty
-          team. The department has also produced many high quality publications
-          in Journals with impact factors and quality conferences at national
-          and international level. The department is an approved research centre
-          under Anna University, Chennai. The department has two PG programs and
-          three UG programs.
+          
         </p>
       </div>
-      <div className="abt-right">
-        <img src={dept} alt="" />
       </div>
-      </div>
-
 
       <div className="abt-con">
-        <div className="abt-right">
-          <img src={vei} alt="" />
-        </div>
-
-        <div className="abt-left">
+        <div className="left">
         <h1>About VEI Technologies</h1>
         <p>
           VEI Technologies provides a broad range of IT consulting, web

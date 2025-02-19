@@ -9,3 +9,46 @@
 .contact h2{
     color: #fecc00;
 }
+
+.contact img{
+    width: 20px;
+    height: 20px;
+}
+
+.details1{
+    display: flex;
+    gap: 5px;
+}
+.details{
+    display: flex;
+    gap: 5px;
+}
+
+.det{
+    display: flex;
+    gap: 5px;
+}
+
+@media(max-width : 900px){
+    .contact{
+        padding: 20px 20px;
+    }
+
+    .contact h3{
+        font-size: 16px;
+    }
+
+    .contact h2{
+        font-size: 16px;
+    }
+
+    .contact p{
+        font-size: 14px;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,11 +1,10 @@
 .pub{
-    margin-top: 100px;
-    background-color: rgb(191,184,156, 0.5);
+    margin-top: 40px;
     padding-bottom: 30px;
 }
 
 .pub  h2{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
     color: #1e4175;
@@ -13,12 +12,13 @@
 
 .pub h4{
     padding: 5px;
-    font-size: 35px;
+    font-size: 24px;
+    font-weight: 500;
     padding-left: 30px;
 }
 
 .pub ul li{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 60px;
 }
 

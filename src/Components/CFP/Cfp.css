@@ -1,18 +1,19 @@
 .cfp{
-    margin-top: 100px;
+    margin-top: 40px;
     background-color: rgb(191,184,156, 0.5);
     padding-bottom: 30px;
 }
 
 .cfp  h2{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
     color: #1e4175;
 }
 
 .cfp h4{
-    font-size: 25px;
+    font-size: 24px;
+    font-weight: 500;
     padding-left: 30px;
 }
 .sub{
@@ -26,7 +27,7 @@
 }
 
 .cfp-sub li{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* media query */

@@ -8,91 +8,25 @@
 
 
 .dates h1{
-    font-size: 50px;
+    font-size: 30px;
     color: #1e4175;
 }
 
 
-.topd
-{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 60px;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.confd{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-    gap: 60px;
-}
-
-.condt{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-items: space-between;
-}
-
-.conb{
-    width: 150px;
-    height: 150px;
-    background-image: linear-gradient(#c1121f, #780000);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffff3f;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-.conb h3{
-    font-size: 70px;
-}
-
-.condt h4{
-    font-size: 30px;
-}
-
-.conb p{
-    font-size: 30px;
-}
-
-
-.box{
-    width: calc(100% / 4);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 110px;
-    background-color: #1e4175;
-    border-radius: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-}
-
-
 .impdt{
-    padding-top: 60px;
-    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    gap: 100px;
+    gap: 10px;
 }
 
 .dt{
-    width: 33%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 
@@ -124,27 +58,28 @@
 }
 
 .b p{
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 }
 
 .b2 p{
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 }
 
 .dt h4{
     margin-top: 40px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .b h3{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .b2 h3{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 
@@ -153,14 +88,6 @@
 @media(max-width:750px)
 {
     
-    .confd{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: left;
-    justify-content: left;
-    gap: 40px;}
-
     .impdt{
         padding-top: 60px;
         padding-bottom: 30px;
@@ -179,45 +106,9 @@
 @media(max-width:450px)
 {
     .dates h1{
-        font-size: 35px;
-    }
-    .confd
-{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: left;
-    justify-content: left;
-    gap: 40px;
-}
-
-    .condt{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .conb{
-        margin-left: 10px;
-        width: 40%;
-        height: 100px;
-    }
-
-    .conb h3{
-        font-size: 30px;
-    }
-
-    .conb p{
-        font-size: 25px;
-    }
-
-    .condt h4{
         font-size: 20px;
     }
-
+    
     .impdt{
         padding-top: 60px;
         padding-bottom: 30px;

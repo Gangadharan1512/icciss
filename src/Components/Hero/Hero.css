@@ -1,7 +1,7 @@
 .hero
 {
     width: 100%;
-    min-height: 150vh;
+    min-height: 100vh;
     background: linear-gradient(rgba(162, 162, 168, 0.7),rgba(162, 162, 168, 0.7)), url(../../assets/sonamain.jpg);
     background-size: cover;
     background-position: position;
@@ -14,7 +14,7 @@
 .content{
     text-align:center;
     max-width: 100%;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .top{
@@ -22,18 +22,18 @@
 }
 
 .top h1{
-    font-size: 70px;
+    font-size: 40px;
     padding-bottom: 30px;
     color: #03045e;
 }
 
 .top h3{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .top h2{
     color: #03045e;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -43,7 +43,7 @@
     text-align: center;
     justify-content: center;
     gap: 100px;
-    padding: 50px;
+    padding: 20px;
 }
 
 .bullet
@@ -54,31 +54,32 @@
 
 
 .mid h3{
-    font-size: 40px;
+    font-size: 25px;
 } 
 
 .mid h4{
-    font-size: 30px;
+    font-size: 20px;
 } 
 
 .mid p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
 .bottom h3{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .bottom h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .bottom h4{
     color: #03045e;
     font-weight: bolder;
     padding-top: 10px;
-    font-size: 25px;
+    text-align: center;
+    font-size: 15px;
 }
 
 
@@ -90,7 +91,6 @@
     gap: 60px;
     font-size: 20px;
     font-weight: 800;
-    padding-left: 60px;
 }
 
 

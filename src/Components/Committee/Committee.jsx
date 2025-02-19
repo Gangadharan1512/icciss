@@ -24,7 +24,7 @@ const Committee = () => {
           <h4>Ms.S.Theetchenya</h4>
           <h4> Dr.P.Ramya</h4>
         </div>
-        <div className="org adv w">
+        <div className="org adv">
           <h4>Dr. G. Vidhya</h4>
           <h4>Dr.T.K.Revathi</h4>
           <h4>Ms.S.Lavanya</h4>
@@ -55,9 +55,9 @@ const Committee = () => {
         </div>
       </div>
 
-      <h1 className="h">ADVISORY COMMITTEE</h1>
-      <div className="adv-com">
-        <div className="adv w">
+      <h1 className="h w">ADVISORY COMMITTEE</h1>
+      <div className="adv-com w">
+        <div className="adv">
           <h4>Dr. K. Chandrasekaran</h4>
           <p> Professor, NITK, Surathkal</p>
           <h4>Dr. G. SudhaSadasivam</h4>{" "}
@@ -105,7 +105,7 @@ const Committee = () => {
           <h4>Dr.M.Nandini</h4>
           <p> Assistant Professor, Pondicherry University</p>
         </div>
-        <div className="adv w">
+        <div className="adv">
           <h4>Muhammad Rukunuddin Ghalib</h4>
           <p> School of Computing, De Montfort University, Dubal</p>
           <h4>Dr. Anitha Saravana Kumar</h4>
