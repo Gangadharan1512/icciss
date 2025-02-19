@@ -85,6 +85,10 @@
         width: 100%;
     }
 
+    .count h2{
+        font-size: 25px;
+    }
+
     .ctdn{
         width: 100%;
         align-items: center;

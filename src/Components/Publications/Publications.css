@@ -49,17 +49,17 @@
     }
 
     .pub h2{
-        font-size: 35px;
+        font-size: 25px;
         padding-top: 30px;
     }
 
     .pub h4{
-        font-size: 20px;
+        font-size: 18px;
         padding-left: 20px;
     }
 
     .pub ul li{
         margin-left: 40px;
-        font-size: 18px;
+        font-size: 16px;
     }
 }

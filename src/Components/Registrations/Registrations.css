@@ -157,7 +157,11 @@ table{
 
     .reg h4{
         text-align: center;
-        font-size: 35px;
+        font-size: 25px;
+    }
+
+    .cont p{
+        font-size: 10px;
     }
 
     table{
@@ -182,9 +186,6 @@ table{
         width: 100%;
     }
 
-    .cont p{
-        padding-left: 20px;
-    }
 
     .cont table{
         padding-left: 20px;
@@ -195,7 +196,7 @@ table{
     }
 
     .r p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .pp{
@@ -205,6 +206,7 @@ table{
 
     .pp h4{
         text-align: center;
+        font-size: 25px;
     }
 
     .r2{
@@ -212,7 +214,7 @@ table{
     }
 
     .r2 p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
