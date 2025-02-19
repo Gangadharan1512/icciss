@@ -143,7 +143,6 @@ table{
 @media(max-width:450px){
     .reg{
         margin-top: 50px;
-        background-color: rgba(191,184,156, 0.5);
         padding-bottom: 30px;
         display: flex;
         flex-direction: column;
@@ -163,7 +162,7 @@ table{
 
     table{
         padding-left: 30px;
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 20px;
     }
     .reg p{
