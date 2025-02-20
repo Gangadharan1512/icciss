@@ -175,12 +175,20 @@ table{
         font-size: 16px;
         margin-top: 20px;
     }
-    .reg p{
+
+    .amt p{
+        margin-left: 30px;
+        padding: 5px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .mod p{
         padding: 5px;
         font-size: 16px;
         padding-left: 20px;
         margin-top: 10px;
     }
+
 
 
     .mod{
@@ -198,7 +206,7 @@ table{
     }
 
     .r{
-        padding: 0px 40px;
+        padding: 0px 30px;
     }
 
     .r p{
@@ -207,8 +215,8 @@ table{
 
     .pp{
         padding-bottom: 5px;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .pp h4{
@@ -217,7 +225,7 @@ table{
     }
 
     .r2{
-        padding: 10px 40px;
+        padding: 10px 30px;
     }
 
     .r2 p{
