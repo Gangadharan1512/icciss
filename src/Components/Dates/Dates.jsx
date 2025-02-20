@@ -17,7 +17,10 @@ const Dates = () => {
               <h3>27</h3> Feb'25
             </p>
           </div>
-          <h4>Submission Deadline</h4>
+          <div className="text">
+            <h4>Submission Deadline</h4>
+          </div>
+          
         </div>
         <div className="dt">
           <div className="b2">
@@ -25,7 +28,10 @@ const Dates = () => {
               <h3>10</h3>Mar'25
             </p>
           </div>
-          <h4>Acceptance Notification</h4>
+          <div className="text">
+            <h4>Acceptance Notification</h4>
+          </div>
+          
         </div>
         <div className="dt">
           <div className="b">
@@ -33,7 +39,10 @@ const Dates = () => {
               <h3>20</h3> Mar'25
             </p>
           </div>
-          <h4>Last Date for Registration</h4>
+          <div className="text">
+            <h4>Last Date for Registration</h4>
+          </div>
+          
         </div>
       </div>
     </div>

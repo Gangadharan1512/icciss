@@ -131,6 +131,10 @@
         gap: 20px;
     }
 
+    .text{
+        width: 150px;
+    }
+
     .b{
         margin-left: 20px;
         width: 40%;
