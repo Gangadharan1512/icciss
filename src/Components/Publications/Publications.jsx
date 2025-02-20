@@ -6,7 +6,7 @@ const Publications = () => {
   return (
     <div className="pub">
       <h2>PUBLICATIONS</h2>
-      <h4>Conference Proceedings and Publications</h4>
+      <h1>Conference Proceedings and Publications</h1>
       <ul>
         <li>The research paper submitted by an author must be of high quality,
         original, unpublished and has not been presented in any other

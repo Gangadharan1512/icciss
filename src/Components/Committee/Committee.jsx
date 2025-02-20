@@ -9,7 +9,7 @@ const Committee = () => {
       
       <h1 className="h w">ORGANIZING COMMITTEE</h1>
       <div className="org-com adv-com w">
-        <div className="org adv ">
+        <div className="org adv">
           <h4>Dr.D.Balamurugan </h4>
           <h4>Dr.R.Sivakami </h4>
           <h4>Dr.D.Vidyabarathi </h4>
@@ -57,7 +57,7 @@ const Committee = () => {
 
       <h1 className="h ">ADVISORY COMMITTEE</h1>
       <div className="adv-com ">
-        <div className="adv">
+        <div className="adv wei">
           <h4>Dr. K. Chandrasekaran</h4>
           <p> Professor, NITK, Surathkal</p>
           <h4>Dr. G. SudhaSadasivam</h4>{" "}
@@ -80,8 +80,10 @@ const Committee = () => {
           <h4> Dr. Arunkumar Sangaiah</h4>{" "}
           <p>Professor, National Yunlin University of Science and Technology</p>
           <h4> Talwan Dr. R. Nadarajan</h4> <p>Chairman, ACM, Coimbatore</p>
+          <h4>Dr.M.Nandini</h4>
+          <p> Assistant Professor, Pondicherry University</p>
         </div>
-        <div className="adv ">
+        <div className="adv wei">
           <h4>Dr. Udayakumar Rajendran</h4>
           <p> Director, Checktronic India Pvt. Ltd. Dharmapuri </p>
           <h4>Dr. B. Sivaselvan</h4> <p>Professor & HOD, ITDM, Kancheepuram</p>
@@ -102,10 +104,8 @@ const Committee = () => {
           <h4>Chilukuri K. Mohan</h4> <p>Professor, Syracuse University</p>
           <h4>Dr. Sudha Subramani</h4>
           <p> Victoria University, Australia</p>
-          <h4>Dr.M.Nandini</h4>
-          <p> Assistant Professor, Pondicherry University</p>
         </div>
-        <div className="adv">
+        <div className="adv wei">
           <h4>Muhammad Rukunuddin Ghalib</h4>
           <p> School of Computing, De Montfort University, Dubal</p>
           <h4>Dr. Anitha Saravana Kumar</h4>

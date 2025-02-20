@@ -6,7 +6,7 @@ const Cfp = () => {
   return (
     <div className='cfp'>
         <h2>CALL FOR PAPERS</h2>
-        <h4>The topics of interest for submission of paper include, but are not limited to:</h4>
+        <h1>The topics of interest for submission of paper include, but are not limited to:</h1>
         <div className="sub">
             <div className="cfp-sub">
             <ul>
@@ -27,8 +27,8 @@ const Cfp = () => {
             </ul>
         </div>
         </div>
-        <h4>Papers describing the original research in any of the above topics and related works are welcome.</h4>
-        <h4>Submit your paper to the mailID : icciss-25@sonatech.ac.in</h4>
+        <p>Papers describing the original research in any of the above topics and related works are welcome.</p>
+        <p>Submit your paper to the mailID : icciss-25@sonatech.ac.in</p>
         
         
     </div>

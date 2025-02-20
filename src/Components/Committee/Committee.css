@@ -1,14 +1,14 @@
 .committee{
-    margin-top: 40px; 
+    margin-top: 30px;
+    padding-top: 20px; 
     background-color: rgb(191,184,156, 0.5);
-    padding-bottom: 30px;
+    line-height: 1.5;
 }
 
 
 .committee h2{
     font-size: 30px;
     text-align: center;
-    padding-top: 20px;
     color: #1e4175;
 }
 
@@ -33,15 +33,11 @@
     padding-bottom: 20px;
 }
 
-
-
-
 .h{
     font-size: 25px;
-    margin-top: 20px;
     padding-top: 10px;
     padding-left: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     color: #1e4175;
     padding-left: 5%;
     padding-right: 5%;
@@ -56,7 +52,6 @@
     gap: 20px;
     width: 100%;
     background-color:rgb(191,184,156, 0.5) ;
-    
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -68,6 +63,10 @@
 
 .adv h4{
     font-size: 20px;
+    font-weight: 400;
+}
+
+.wei h4{
     font-weight: 500;
 }
 
@@ -108,7 +107,7 @@
 @media (max-width: 750px)
 {
     .committee{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .committee h2{
@@ -155,9 +154,9 @@
     }
 
     .h{
-        margin-top: 20px;
+        margin-top: 10px;
         text-align: center;
-        padding-left: 0px;
+        padding: 0px 10px;
         font-size: 20px;
     }
 
