@@ -1,0 +1,30 @@
+.pub{
+    margin-top:30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.pub ul{
+    padding: 10px 20px;
+}
+
+/* media query */
+
+
+@media (max-width: 750px) {
+
+   
+
+    .pub ul{
+        margin-left: 0px 0px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .pub{
+        margin-top: 20px;
+    }
+}

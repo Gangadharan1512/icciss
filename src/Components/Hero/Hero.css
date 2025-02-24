@@ -1,0 +1,158 @@
+.hero
+{
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(rgba(162, 162, 168, 0.8),rgba(162, 162, 168, 0.8)), url(../../assets/sonamain_1_cropped.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content{
+    text-align:center;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+.top h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.top h1{
+    font-size: 35px;
+    color: #1e4175;
+    text-transform: uppercase;
+}
+
+.top h3{
+    font-size: 20px;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.dt{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+
+.bottom h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+
+/* media query */
+
+@media (max-width: 840px) {
+    .hero {
+        min-height: 120vh; /* Reduce height for smaller screens */
+        background-size: cover;
+        background-position: center; /* Ensure proper alignment */
+        padding: 20px; /* Add some padding for spacing */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content {
+        text-align: center;
+        max-width: 100%; /* Adjust width to fit smaller screens */
+        margin-top: 30px; /* Reduce top margin */
+    }
+
+    .top h1 {
+        font-size: 30px; /* Reduce font size */
+        padding-bottom: 20px;
+    }
+
+    .top h3 {
+        font-size: 15px; /* Reduce font size */
+    }
+
+    .top h2 {
+        font-size: 20px; /* Adjust for better fit */
+        padding-top: 20px;
+    }
+
+    .bottom h3 {
+        font-size: 20px;
+    }
+
+    .bottom h1 {
+        font-size: 25px;
+    }
+
+    .bottom h4 {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    .hero {
+        min-height: 100vh; /* Reduce height further for small screens */
+        padding: 15px; /* Adjust padding */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content {
+        max-width: 100%; /* Use more screen space */
+        margin-top: 80px; /* Reduce top margin */
+    }
+
+    .top h1 {
+        font-size: 25px; /* Further reduce font size */
+        padding-bottom: 15px;
+    }
+
+    .top h3 {
+        font-size:18px;
+    }
+
+    .top h2 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .dt{
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    
+
+    .bottom h3 {
+        font-size: 18px;
+    }
+    .bottom{
+        margin-top: 10px;
+    }
+
+
+   
+}

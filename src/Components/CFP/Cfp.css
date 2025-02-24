@@ -1,0 +1,67 @@
+.cfp{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.cfp-sub{
+    padding: 20px;    
+}
+
+
+
+/* media query */
+
+@media(max-width:750px){
+
+
+    .cfp{
+        margin-left: 10px;
+    }
+
+    .sub{
+        gap: 5px;
+    }
+
+    .cfp-sub li{
+        font-size: 16px;
+    }
+
+    .cfp p{
+        font-size: 16px;
+    }
+
+    
+}
+
+
+@media(max-width:450px)
+{
+    .cfp{
+        margin-top: 20px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .sub{
+        display:block;
+        gap: 0px;
+        padding: 30px 0;
+    }
+
+    .cfp-sub{
+        padding: 0px 0px;    
+        padding-left: 40px;
+    }
+
+    .cfp-sub li{
+        font-size: 16px;
+    }
+}

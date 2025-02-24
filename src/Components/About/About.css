@@ -1,0 +1,50 @@
+.about{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.abt{
+    margin: 20px 0px;
+}
+
+.subabt
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.abtcon{
+    width: 70%;
+    text-align: justify;
+}
+
+img{
+    width: 340px;
+    height: 240px;
+}
+
+@media(max-width: 750px){
+    .subabt
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+    .abtcon{
+        width: 100%;
+        text-align: justify;
+    }
+}

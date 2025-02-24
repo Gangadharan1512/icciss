@@ -1,0 +1,159 @@
+.dates{
+    margin-top: 30px; 
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.impdt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.dts{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    gap: 30px;
+}
+
+
+.b{
+    width: 150px;
+    height: 150px;
+    background-image:linear-gradient(#fecc00, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e4175;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.b2{
+    width: 150px;
+    height: 150px;
+    background-color: #1e4175;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fecc00;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.b p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.b2 p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.dt h4{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.b h3{
+    font-size: 50px;
+}
+
+.b2 h3{
+    font-size: 50px;
+}
+
+.text h4{
+    text-align: center;
+}
+
+/* media query */
+
+@media(max-width:750px)
+{
+    
+    .impdt{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0px;
+    }
+    
+}
+
+
+
+@media(max-width:450px)
+{
+    
+    
+    .impdt{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .dts{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 20px;
+    }
+
+    .text{
+        width: 150px;
+    }
+
+    .b{
+        margin-left: 20px;
+        width: 40%;
+        height: 100px;
+    }
+
+    .b h3{
+        font-size: 30px;
+    }
+
+    .b p{
+        font-size: 25px;
+    }
+
+    .b2{
+        margin-left: 20px;
+        width: 40%;
+        height: 100px;
+    }
+
+    .b2 h3{
+        font-size: 30px;
+    }
+
+    .b2 p{
+        font-size: 25px;
+    }
+
+    .dt h4{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+

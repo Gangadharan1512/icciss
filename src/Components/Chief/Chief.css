@@ -1,0 +1,36 @@
+.chief{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cp{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.subcp{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 750px)
+{
+    .cp{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subcp
+    {
+        width: 100%;
+    }
+}

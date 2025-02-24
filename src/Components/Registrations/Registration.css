@@ -1,0 +1,82 @@
+.reg
+{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.regis{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.regdet{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 250px;
+}
+
+.mop{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.tab{
+    padding-right: 300px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+table tr td{
+    font-size: 18px;
+    width: 15%;
+}
+
+.reg ul{
+    padding: 20px;
+}
+
+.pp{
+    margin-top: 20px;
+}
+
+
+@media(max-width : 750px)
+{
+    .regis{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .regdet{
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .mop{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .tab{
+        padding-right: 0px;
+    }
+
+    table tr td{
+        font-size: 16px;
+    }
+}
