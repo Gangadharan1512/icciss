@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
         <h3>Sponsored by</h3>
-        <h3  style={{color : "#1e4175" , fontSize : "30px"}}>ISTE, CSI(Salem Chapter) and IE(I) Salem</h3>
+        <h3  className="last" >ISTE, CSI(Salem Chapter) and IE(I) Salem</h3>
       </div>
 
 
