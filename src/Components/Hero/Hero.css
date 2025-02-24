@@ -122,7 +122,7 @@
 
     .content {
         max-width: 100%; /* Use more screen space */
-        margin-top: 80px; /* Reduce top margin */
+        margin-top: 40px; /* Reduce top margin */
     }
 
     .top h1 {

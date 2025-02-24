@@ -69,8 +69,8 @@ nav ul li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(#fecc00, yellow);
-    color: #1e4175;
+    background-color: #1e4175;
+    color: #fecc00;
 }
 
 
