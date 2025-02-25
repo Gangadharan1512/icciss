@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="content">
       <div className="top">
         <h2>Department of Computer Science and Engineering</h2>
-        <h3>Orgainzes</h3>
+        <h3>Organises</h3>
         <h1>An International Conference<h3>on</h3>Computational Intelligence, Security and Systems<br/>(ICCISS'25)</h1>
 
       </div>

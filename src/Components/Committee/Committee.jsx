@@ -12,7 +12,7 @@ const Committee = () => {
         <div className="suborg">
           <div className="suborgl">
             <p>
-              Dr.D.Balamuruganbr <br /> Dr.R.Sivakami <br /> Dr.D.Vidyabarathi<br />
+              Dr.D.Balamurugan <br /> Dr.R.Sivakami <br /> Dr.D.Vidyabarathi<br />
               Dr. V.Nandini <br /> Dr.A.Prithiviraj <br /> Dr.T.Sathiya <br />
               Dr.K.C.Rajeswari <br /> Dr.J.Dhayanithi <br /> Dr.R.Reenadevi<br/>
               Dr.G.Kirubasri <br /> Mr.N.Basker <br /> Ms.S.Theetchenya <br /> Dr.P.Ramya

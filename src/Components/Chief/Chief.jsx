@@ -25,7 +25,7 @@ const Chief = () => {
           </p>
           <h1>Convenor</h1>
           <p>
-            Dr. B. SATHIYABAMA <br /> Prof & Head/CSE, SCT
+            Dr. B. SATHIYABHAMA <br /> Prof & Head/CSE, SCT
           </p>
           <h1>Co-Convenor</h1>
           <p>
